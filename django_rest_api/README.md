@@ -1,10 +1,17 @@
 # Django REST API
 
-- [Django로 Rest API 만들기 유튜브][Django로 Rest API 만들기]
-- [소스 코드 및 설명있는 티스토리 블로그][블로그]
+- REST API
+  - Client -> Request (API call) -> Server
+  - Server -> Response (json) -> Client
+
+- 참고 링크
+  - [Django로 Rest API 만들기 유튜브][Django로 Rest API 만들기]
+  - [소스 코드 및 설명있는 티스토리 블로그][블로그]
+
 - 강사 개발 환경
   - IDE: PyCharm 2018.2
   - Libraries: django 3.1.1, djangorestframework, requests
+    - djangorestframework 에서 기본적으로 REST API Client 를 제공하기 때문에 따로 툴(e.g. Postman) 사용할 필요 없음
 
 [Django로 Rest API 만들기]: https://youtube.com/playlist?list=PLfRvc71koCxgCNZl2OPWQ7RDUbXo7aqBb
 [블로그]: https://philosopher-chan.tistory.com/category/%EC%9C%A0%ED%8A%9C%EB%B8%8C/%EC%9E%A5%EA%B3%A0%28django%29%20Rest%20API
